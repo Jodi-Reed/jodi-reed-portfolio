@@ -23,3 +23,4 @@ knowledge check, and facilitator notes.
 - [LinkedIn](https://linkedin.com/in/jodireed-33327-weston)
 - [Full Portfolio](https://sites.google.com/view/jodi-reed-portfolio/about-me)
 - jodi.reed1@gmail.com
+  
