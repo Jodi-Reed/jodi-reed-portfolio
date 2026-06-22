@@ -95,6 +95,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="XHleXtbdekxk2jalRVcj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Backend API Sequence&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1270" x="40" y="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
