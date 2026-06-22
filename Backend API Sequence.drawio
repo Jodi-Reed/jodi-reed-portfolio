@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="API Sequence Diagram" id="izxw_miAByLI5a-bZk4M">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Broker Portal" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-25" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=0.6667;entryX=1;entryY=0.6667;" target="oP7KjZqFhEcmN5TcRtWK-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="168" />
+              <mxPoint x="390" y="173" />
+              <mxPoint x="216" y="173" />
+              <mxPoint x="216" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="API Gateway" vertex="1">
+          <mxGeometry height="60" width="160" x="406" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Salesforce CRM" vertex="1">
+          <mxGeometry height="60" width="160" x="787" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Underwriting Engine" vertex="1">
+          <mxGeometry height="60" width="180" x="1124" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Billing System" vertex="1">
+          <mxGeometry height="60" width="160" x="787" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-18" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-13" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.3333;entryX=0;entryY=0.3333;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-14" value="Submit Enrollment Package">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="303" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-19" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-14" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.4;entryX=0;entryY=0.6667;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-15" value="Create/Update Opportunity">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+            <Array as="points">
+              <mxPoint x="602" y="152" />
+              <mxPoint x="602" y="180" />
+              <mxPoint x="771" y="180" />
+              <mxPoint x="771" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-20" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-15" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.6667;entryX=0;entryY=0.6667;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-16" value="Underwriting Data">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="963" y="160" />
+              <mxPoint x="963" y="180" />
+              <mxPoint x="1108" y="180" />
+              <mxPoint x="1108" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-21" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-16" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=0;exitY=0.3333;entryX=1;entryY=0.3333;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-15" value="Underwriting Decision">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1035.5" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-22" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-15" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=0;exitY=0.3333;entryX=1;entryY=0.2;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-14" value="Final Enrollment File">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+            <Array as="points">
+              <mxPoint x="676.5" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-23" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-14" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.8;entryX=0;entryY=0.6667;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-17" value="Create Policy">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" as="offset" />
+            <Array as="points">
+              <mxPoint x="582" y="176" />
+              <mxPoint x="582" y="280" />
+              <mxPoint x="771" y="280" />
+              <mxPoint x="771" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP7KjZqFhEcmN5TcRtWK-24" edge="1" parent="1" source="oP7KjZqFhEcmN5TcRtWK-17" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=0;exitY=0.3333;entryX=1;entryY=0.6;edgeStyle=orthogonalEdgeStyle;" target="oP7KjZqFhEcmN5TcRtWK-14" value="Policy ID">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" as="offset" />
+            <Array as="points">
+              <mxPoint x="592" y="240" />
+              <mxPoint x="592" y="164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
