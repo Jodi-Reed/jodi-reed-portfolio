@@ -1,54 +1,51 @@
 <mxfile host="app.diagrams.net">
   <diagram name="System Integration Architecture" id="9Vauvqn84NRazzozX4L3">
-    <mxGraphModel dx="968" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eThFxNo-xzKgLkLI-Da4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Broker Portal" vertex="1">
-          <mxGeometry height="60" width="160" x="410" y="188" as="geometry" />
-        </mxCell>
-        <mxCell id="eThFxNo-xzKgLkLI-Da4-15" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eThFxNo-xzKgLkLI-Da4-14" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="60" width="121" x="190" y="188" as="geometry" />
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="API Gateway" vertex="1">
-          <mxGeometry height="60" width="160" x="715" y="188" as="geometry" />
+          <mxGeometry height="60" width="125" x="490" y="188" as="geometry" />
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Salesforce CRM" vertex="1">
-          <mxGeometry height="60" width="160" x="1025" y="188" as="geometry" />
+          <mxGeometry height="60" width="160" x="824" y="188" as="geometry" />
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Underwriting Engine" vertex="1">
-          <mxGeometry height="60" width="180" x="1363" y="180" as="geometry" />
+          <mxGeometry height="60" width="180" x="1177" y="180" as="geometry" />
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Billing System" vertex="1">
-          <mxGeometry height="60" width="160" x="1369.67" y="280" as="geometry" />
+          <mxGeometry height="60" width="160" x="1183.67" y="280" as="geometry" />
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ID Card Vendor" vertex="1">
-          <mxGeometry height="60" width="160" x="1676" y="280" as="geometry" />
+          <mxGeometry height="60" width="160" x="1490" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="eThFxNo-xzKgLkLI-Da4-7" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-1" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;edgeStyle=orthogonalEdgeStyle;" target="eThFxNo-xzKgLkLI-Da4-2" value="Enrollment Data">
-          <mxGeometry relative="1" x="0.0069" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="642.5" y="218" />
-            </Array>
+        <mxCell id="eThFxNo-xzKgLkLI-Da4-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;curved=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eThFxNo-xzKgLkLI-Da4-2" value="Enrollment Data">
+          <mxGeometry relative="1" x="-0.1538" y="18" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points" />
+            <mxPoint x="310" y="218" as="sourcePoint" />
+            <mxPoint x="530" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eThFxNo-xzKgLkLI-Da4-8" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-2" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;edgeStyle=orthogonalEdgeStyle;" target="eThFxNo-xzKgLkLI-Da4-3" value="Lead/Opportunity">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="eThFxNo-xzKgLkLI-Da4-8" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-2" style="endArrow=classic;html=1;rounded=1;curved=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Account/Contact/Case Data">
+          <mxGeometry relative="1" x="-0.1697" y="18" as="geometry">
             <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="950" y="218" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="660" y="217.95" as="sourcePoint" />
+            <mxPoint x="820" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eThFxNo-xzKgLkLI-Da4-9" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-3" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.4;entryX=0;entryY=0.6667;edgeStyle=orthogonalEdgeStyle;" target="eThFxNo-xzKgLkLI-Da4-4" value="Underwriting Data">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="14" as="offset" />
             <Array as="points">
-              <mxPoint x="1221" y="212" />
-              <mxPoint x="1221" y="240" />
-              <mxPoint x="1347" y="240" />
-              <mxPoint x="1347" y="220" />
+              <mxPoint x="1035" y="212" />
+              <mxPoint x="1035" y="240" />
+              <mxPoint x="1161" y="240" />
+              <mxPoint x="1161" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -56,7 +53,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10" as="offset" />
             <Array as="points">
-              <mxPoint x="1274" y="200" />
+              <mxPoint x="1088" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,10 +61,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="48.66" as="offset" />
             <Array as="points">
-              <mxPoint x="1201" y="236" />
-              <mxPoint x="1201" y="340" />
-              <mxPoint x="1347" y="340" />
-              <mxPoint x="1347" y="320" />
+              <mxPoint x="1015" y="236" />
+              <mxPoint x="1015" y="340" />
+              <mxPoint x="1161" y="340" />
+              <mxPoint x="1161" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -75,8 +72,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="44.66" as="offset" />
             <Array as="points">
-              <mxPoint x="1211" y="300" />
-              <mxPoint x="1211" y="224" />
+              <mxPoint x="1025" y="300" />
+              <mxPoint x="1025" y="224" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -84,12 +81,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="6.66" as="offset" />
             <Array as="points">
-              <mxPoint x="1602.84" y="310" />
+              <mxPoint x="1416.84" y="310" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="eThFxNo-xzKgLkLI-Da4-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="API Gateway" vertex="1">
-          <mxGeometry height="60" width="160" x="955" y="188" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
