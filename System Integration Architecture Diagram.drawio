@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="System Integration Architecture" id="9Vauvqn84NRazzozX4L3">
-    <mxGraphModel dx="5483" dy="2600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="968" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eThFxNo-xzKgLkLI-Da4-13" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-5" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;edgeStyle=orthogonalEdgeStyle;" target="eThFxNo-xzKgLkLI-Da4-6" value="Member Data">
+        <mxCell id="eThFxNo-xzKgLkLI-Da4-13" edge="1" parent="1" source="eThFxNo-xzKgLkLI-Da4-5" style="endArrow=classic;html=1;rounded=1;curved=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;edgeStyle=orthogonalEdgeStyle;fillColor=light-dark(#000000,#000099);" target="eThFxNo-xzKgLkLI-Da4-6" value="Member Data">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="6.66" as="offset" />
             <Array as="points">
